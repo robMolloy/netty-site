@@ -37,16 +37,18 @@ const HomeWhyMe = (props = {}) => {
       </Section>
       <Section>
         <Text>
-          Experience - With over 20 years of people, organisational and
-          management development experience, I bring a wide range of tools and
-          techniques to support you in your behaviour change and development.
-          I’ve coached people in various types and size of organisation, in the
-          public and private sector, and at all levels up to Managing Director.
-          I’ve recruited and managed two training teams, and reporting at
-          Director level, been part of a senior management team of a FTSE 100
-          company. I brings this experience to my coaching. I’ve witnessed the
-          powerful difference that my coaching has made to individuals and their
-          businesses
+          With over 2 decades of people, organisational and management
+          development experience, I use a wide range of tools and techniques to
+          support you in your behaviour change and development. I’ve coached
+          people in various types and size of organisation, in the public and
+          private sector, and at all levels up to Managing Director. I’ve
+          recruited and managed two training teams, and reporting at Director
+          level, been part of a senior management team of a FTSE 100 company. I
+          brings this experience to my coaching and tailor my approach to your
+          unique needs. I’ve witnessed the powerful difference that my coaching
+          has made to individuals and their businesses (see testimonials). I
+          strive to be the best coach I can be through personal development,
+          self-reflection and supervision.
         </Text>
 
         <Text align="center">

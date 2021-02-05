@@ -1,6 +1,4 @@
 import React from "react";
-import Section from "../../generic/sections/Section";
-import Title from "../../generic/text/Title";
 import Text from "../../generic/text/Text";
 
 const HomeCanIHelpYouBullets = (props) => {
@@ -16,27 +14,30 @@ const HomeCanIHelpYouBullets = (props) => {
   const bulletProps = { gutterBottom, before, align, fontWeight, fontColor };
   return (
     <>
-      <Text {...bulletProps}>How can I lead my team more effectively?</Text>
+      <Text {...bulletProps}>leading your team more effectively</Text>
+      <Text {...bulletProps}>managing specific issues within your team</Text>
+      <Text {...bulletProps}>developing your team to be more effective</Text>
       <Text {...bulletProps}>
-        How can I manage home/remote workers more effectively?
+        managing home/remote workers more effectively
       </Text>
       <Text {...bulletProps}>
-        How can I manage specific issues within my team?
+        holding difficult conversations/managing conflict
       </Text>
-      <Text {...bulletProps}>How can I have difficult conversations?</Text>
-      <Text {...bulletProps}>How can I manage my toxic boss?</Text>
+      <Text {...bulletProps}>managing your toxic boss</Text>
+      <Text {...bulletProps}>building trust</Text>
+      <Text {...bulletProps}>developing confidence</Text>
+      <Text {...bulletProps}>becoming more assertive</Text>
+      <Text {...bulletProps}>building resilience</Text>
+      <Text {...bulletProps}>overcoming ‘imposter syndrome’</Text>
+      <Text {...bulletProps}>explore feedback in a safe environment</Text>
       <Text {...bulletProps}>
-        How can I develop my team to be more effective?
+        developing specific skills such as time management, decision making,
+        interview skills, presentation skills
       </Text>
-      <Text {...bulletProps}>How can I build trust?</Text>
-      <Text {...bulletProps}>How can I develop my confidence?</Text>
-      <Text {...bulletProps}>How can I become more assertive?</Text>
-      <Text {...bulletProps}>How can I build my resilience?</Text>
-      <Text {...bulletProps}>How can I overcome ‘imposter syndrome’?</Text>
-      <Text {...{ ...bulletProps, gutterBottom: 0 }}>
-        How can I develop specific skills such as time management, decision
-        making?
+      <Text {...bulletProps}>
+        identifying Best Self and Shadow Behaviours (see PRINT® section)
       </Text>
+      <Text {...bulletProps}>changing/developing your career</Text>
     </>
   );
 };

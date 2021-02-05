@@ -11,7 +11,10 @@ const HomeWelcomeSection = (props = {}) => {
   ({ color = "primary" } = props);
 
   const classes = makeStyles((theme) => ({
-    root: { position: "relative" },
+    root: {
+      position: "relative",
+      background: "url(img/redwood.png) center",
+    },
     column: {
       height: "100%",
       alignItems: "center",
@@ -43,9 +46,15 @@ const HomeWelcomeSection = (props = {}) => {
         <span className={classes.column}>
           <span></span>
           <span className={classes.message}>
-            <Text align="center">Welcome to</Text>
-            <Title size={0}>Nettty's new website</Title>
-            {/* <Text>romolo.co.uk</Text> */}
+            <Title
+              align="center"
+              fontColor="#ffffff"
+              fontWeight="bold"
+              // size={0}
+              style={{ fontSize: "4.5em", lineHeight: "70px" }}
+            >
+              Reach Your Potential
+            </Title>
           </span>
           <span></span>
           <span></span>

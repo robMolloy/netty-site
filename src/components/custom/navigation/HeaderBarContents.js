@@ -27,7 +27,7 @@ const HeaderBarContents = (props = {}) => {
   return (
     <>
       <div className={classes.logoContainer}>
-        <Title color="mono">jeanette poole</Title>
+        <Title color="mono">Janette Poole</Title>
       </div>
 
       <div className={classes.spacer}></div>

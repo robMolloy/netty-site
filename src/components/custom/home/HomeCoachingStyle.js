@@ -15,26 +15,20 @@ const HomeCoachingStyle = (props = {}) => {
           <>
             <Title>My style of coaching</Title>
             <Text>
-              My style is non-directive coaching as this is most effective in
-              bringing about behaviour change. This approach, combined with
-              sharing best practice tools and techniques that I have developed
-              during 2 decades of working in leadership development, results in
-              maximum growth and change. It’s a powerful way for you to develop
-              in a bespoke and tailored way.
-            </Text>
-            <Text>
-              I tailor my approach to you as an individual within the specific
-              needs of your business environment. Coaching is a bespoke, time
-              effective way to develop as a leader. I will help you to
-              understand the areas you need to develop and provide you with the
-              best tools to achieve your leadership potential. This will benefit
-              you, your team and the business as a whole.
+              tailor my approach to you by taking into account your specific
+              circumstances, and business environment where appropriate. My
+              style is non-directive as this is most helpful in bringing about
+              sustained change. At the core of my coaching is my belief that you
+              have the resources you need; I will help you to find them. Where
+              appropriate, I’ll suggest tools to help you to overcome your
+              challenges. This approach will benefit you, your team and the
+              business as a whole.
             </Text>
             <Text>
               Click here to talk to me about taking the first step out of your
               comfort zone and getting serious about change
             </Text>
-            <ButtonRow array={[<GetInTouchButton />]} />
+            <Text>Contact me here to talk my style of coaching </Text>
           </>,
           <>
             <img

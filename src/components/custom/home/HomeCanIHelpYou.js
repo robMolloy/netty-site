@@ -28,17 +28,14 @@ const HomeCanIHelpYou = (props = {}) => {
             <HomeCanIHelpYouBullets />
           </div>,
           <>
-            <Title>What can I help you with?</Title>
+            <Title>What I can help you with?</Title>
             <Text>
-              Although people generally come for coaching in specific areas,
-              this might change after the first few sessions as we work together
-              to understand what might be blocking you from moving forward. Some
-              questions I can help you with:
+              I’m passionate about helping people to overcome challenges and
+              achieve their potential. Nothing is too trivial or too difficult
+              to have a conversation about. Questions and challenges I can help
+              you with include:
             </Text>
-            <Text>
-              My goal is to help you to identify what’s holding you back and how
-              to overcome it. Click here to talk to me about your goal
-            </Text>
+            <Text>Contact to me here to talk about your challenges.</Text>
           </>,
         ]}
       />

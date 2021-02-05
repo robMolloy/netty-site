@@ -15,8 +15,8 @@ const HomePracticalities = (props) => {
 
             <Text>
               During our initial meeting, we’ll agree the best way to work
-              taking into account your goals, work schedule, learning and
-              communication preferences.
+              together taking into account your goals, work schedule, learning
+              and communication preferences.
             </Text>
             <Text>
               Although I believe the best way to coach is face to face, this can
@@ -36,7 +36,7 @@ const HomePracticalities = (props) => {
               from; I want to ensure my coaching is accessible to everyone and
               charge a lower rate if you are self-funding or work for a charity.
             </Text>
-            <Text>Click here for a conversation about the practicalities</Text>
+            <Text>Contact me for a no obligation discussion</Text>
           </>,
           <img alt="" src="./myFlowers.jpg" />,
         ]}
