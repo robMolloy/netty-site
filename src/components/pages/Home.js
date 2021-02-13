@@ -8,6 +8,7 @@ import HomePracticalities from "../custom/home/HomePracticalities";
 import HomeExperience from "../custom/home/HomeExperience";
 import HomeTestimonials from "../custom/home/HomeTestimonials";
 import HomeWhatIsCoaching from "../custom/home/HomeWhatIsCoaching";
+import HomeContactForm from "../custom/home/HomeContactForm";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
 
       <HomeWhatIsCoaching />
       <HomeCoachSelect color="mono" />
+      <HomeContactForm color="mono" />
     </>
   );
 };

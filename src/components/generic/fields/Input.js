@@ -30,7 +30,7 @@ const Input = React.forwardRef((props = {}, ref) => {
       inputRef={ref}
       inputProps={{ className: classes.input }}
       InputLabelProps={{ className: classes.label }}
-      variant="filled"
+      // variant="outlined"
       helperText={helperText}
       {...props}
     />

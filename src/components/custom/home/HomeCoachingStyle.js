@@ -3,8 +3,8 @@ import Section from "../../generic/sections/Section";
 import GridColumnToRow from "../../generic/grids/GridColumnToRow";
 import Text from "../../generic/text/Text";
 import Title from "../../generic/text/Title";
-import ButtonRow from "../../generic/grids/ButtonRow";
-import GetInTouchButton from "../buttons/GetInTouchButton";
+// import ButtonRow from "../../generic/grids/ButtonRow";
+// import GetInTouchButton from "../buttons/GetInTouchButton";
 
 const HomeCoachingStyle = (props = {}) => {
   return (

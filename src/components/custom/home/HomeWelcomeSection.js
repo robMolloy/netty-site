@@ -2,7 +2,6 @@ import React from "react";
 import Section from "../../generic/sections/Section";
 
 import Title from "../../generic/text/Title";
-import Text from "../../generic/text/Text";
 
 import makeStyles from "@material-ui/styles/makeStyles";
 
@@ -50,10 +49,18 @@ const HomeWelcomeSection = (props = {}) => {
               align="center"
               fontColor="#ffffff"
               fontWeight="bold"
-              // size={0}
               style={{ fontSize: "4.5em", lineHeight: "70px" }}
+              gutterBottom={10}
             >
-              Reach Your Potential
+              Coaching People
+            </Title>
+            <Title
+              align="center"
+              fontColor="#ffffff"
+              fontWeight="bold"
+              style={{ fontSize: "2.5em", lineHeight: "45px" }}
+            >
+              Reaching Your Potential
             </Title>
           </span>
           <span></span>

@@ -8,6 +8,9 @@ import MUIToolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 
 import Container from "../../generic/containers/Container";
+import { Hidden } from "@material-ui/core";
+import HeaderBarLinkList from "./HeaderBarLinkList";
+//
 
 const useStyles = makeStyles((theme) => ({
   root: {},
@@ -27,6 +30,16 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "4px",
     padding: "4px 8px",
   },
+  links: { display: "flex", alignItems: "center" },
+  link: {
+    marginRight: theme.spacing(3),
+    textDecoration: "none",
+    color: "black",
+    padding: `${theme.spacing(1)}px 0`,
+    borderBottom: "1px solid #00000000",
+    cursor: "pointer",
+    "&:hover": { borderBottom: "1px solid black" },
+  },
 }));
 
 const HeaderBar = (props = {}) => {
@@ -41,17 +54,28 @@ const HeaderBar = (props = {}) => {
         <Container className={classes.container}>
           {children}
 
-          <div></div>
+          <Hidden smDown>
+            <HeaderBarLinkList />
+            {/* <div className={classes.links}>
+              <Link to className={classes.link}> Home</Link>
+              <Link className={classes.link}> Psychometic</Link>
+              <Link className={classes.link}> Resources</Link>
+              <Link className={classes.link}> Contact</Link>
+            </div> */}
+          </Hidden>
+
           {menuButton && (
-            <IconButton
-              onClick={toggleDrawer}
-              className={classes.menuButton}
-              aria-label="menu"
-              color="primary"
-              variant="outlined"
-            >
-              <MenuIcon />
-            </IconButton>
+            <Hidden mdUp>
+              <IconButton
+                onClick={toggleDrawer}
+                className={classes.menuButton}
+                aria-label="menu"
+                color="primary"
+                variant="outlined"
+              >
+                <MenuIcon />
+              </IconButton>
+            </Hidden>
           )}
         </Container>
       </MUIToolbar>

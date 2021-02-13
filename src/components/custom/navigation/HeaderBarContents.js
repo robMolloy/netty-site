@@ -12,7 +12,9 @@ const HeaderBarContents = (props = {}) => {
 
   const classes = makeStyles((theme) => ({
     logoContainer: {
+      alignSelf: "center",
       maxHeight: "100px",
+      height: "100%",
       maxWidth: "65%",
       color: theme.palette[color].contrastText,
     },
@@ -27,7 +29,9 @@ const HeaderBarContents = (props = {}) => {
   return (
     <>
       <div className={classes.logoContainer}>
-        <Title color="mono">Janette Poole</Title>
+        <Title color="mono" gutterBottom={0}>
+          Janette Poole
+        </Title>
       </div>
 
       <div className={classes.spacer}></div>

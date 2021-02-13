@@ -13,7 +13,9 @@ const GridContainer = (props = {}) => {
   } = props);
 
   const classes = makeStyles((theme) => ({
-    root: {},
+    root: {
+      // maxWidth: "100%",
+    },
     spacingY: {
       "& div.MuiGrid-item": {
         paddingTop: theme.spacing(spacingY / 2),

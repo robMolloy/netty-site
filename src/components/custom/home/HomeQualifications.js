@@ -4,7 +4,7 @@ import Title from "../../generic/text/Title";
 import Text from "../../generic/text/Text";
 import Container from "../../generic/containers/Container";
 import HomeQualificationsBullets from "./HomeQualificationsBullets";
-import { makeStyles, useTheme } from "@material-ui/core";
+import { useTheme } from "@material-ui/core";
 
 // const useStyles = main;
 
@@ -15,10 +15,7 @@ const HomeQualifications = (props = {}) => {
     color: theme.palette.primary.contrastText,
     padding: theme.spacing(2),
   };
-  const classes = makeStyles((theme) => ({
-    root: {},
-    bulletContainer: containerStyle,
-  }))();
+
   return (
     <>
       <Section withContainer={false}>
