@@ -2,8 +2,7 @@ import Home from "./components/pages/Home";
 
 import HomeIcon from "@material-ui/icons/Home";
 import HomeContactForm from "./components/custom/home/HomeContactForm";
-import Resources from "./components/pages/Resources";
-import Psychometric from "./components/pages/Psychometric";
+import Tools from "./components/pages/Tools";
 
 const config = {
   pages: [
@@ -16,16 +15,9 @@ const config = {
     },
     {
       order: "1",
-      path: "psychometric",
-      name: "Psychometric",
-      Component: Psychometric,
-      Icon: HomeIcon,
-    },
-    {
-      order: "1",
-      path: "resources",
-      name: "Resources",
-      Component: Resources,
+      path: "tools",
+      name: "Tools",
+      Component: Tools,
       Icon: HomeIcon,
     },
     {

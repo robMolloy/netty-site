@@ -60,14 +60,19 @@ const HomeWelcomeSection = (props = {}) => {
               fontWeight="bold"
               style={{ fontSize: "2.5em", lineHeight: "45px" }}
             >
-              Reaching Your Potential
+              Reach Your Potential
             </Title>
           </span>
           <span></span>
           <span></span>
         </span>
       </span>
-      <img src="wave.png" alt="" className={classes.waves} />
+      <img
+        src="wave.png"
+        style={{ width: "100vw" }}
+        alt=""
+        className={classes.waves}
+      />
     </Section>
   );
 };

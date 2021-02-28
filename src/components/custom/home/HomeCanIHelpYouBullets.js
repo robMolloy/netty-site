@@ -14,12 +14,10 @@ const HomeCanIHelpYouBullets = (props) => {
   const bulletProps = { gutterBottom, before, align, fontWeight, fontColor };
   return (
     <>
-      <Text {...bulletProps}>leading your team more effectively</Text>
+      <Text {...bulletProps}>leading your team</Text>
       <Text {...bulletProps}>managing specific issues within your team</Text>
       <Text {...bulletProps}>developing your team to be more effective</Text>
-      <Text {...bulletProps}>
-        managing home/remote workers more effectively
-      </Text>
+      <Text {...bulletProps}>managing home/remote workers</Text>
       <Text {...bulletProps}>
         holding difficult conversations/managing conflict
       </Text>

@@ -24,11 +24,8 @@ const HomeCanIHelpYou = (props = {}) => {
       <GridColumnToRow
         alignItems="center"
         array={[
-          <div className={classes.bulletContainer}>
-            <HomeCanIHelpYouBullets />
-          </div>,
           <>
-            <Title>What I can help you with?</Title>
+            <Title>What I can help you with</Title>
             <Text>
               I’m passionate about helping people to overcome challenges and
               achieve their potential. Nothing is too trivial or too difficult
@@ -37,6 +34,9 @@ const HomeCanIHelpYou = (props = {}) => {
             </Text>
             <Text>Contact to me here to talk about your challenges.</Text>
           </>,
+          <div className={classes.bulletContainer}>
+            <HomeCanIHelpYouBullets />
+          </div>,
         ]}
       />
     </Section>

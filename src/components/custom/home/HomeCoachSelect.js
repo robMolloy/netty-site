@@ -7,7 +7,10 @@ const HomeCoachSelect = (props = {}) => {
   return (
     <Section {...props}>
       <Title align="center">How to select a coach</Title>
-      <Text gutterBottom={0}>
+      <Text
+      //
+      // gutterBottom={0}
+      >
         For coaching to be successful it’s important to have the right chemistry
         between you and your coach. During our first no obligation conversation
         about your situation and how we might work together, if we don’t think
