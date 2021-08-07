@@ -1,3 +1,1 @@
-# small-business-tracker
-
-small-business-tracker
+# Coaching people redesign
