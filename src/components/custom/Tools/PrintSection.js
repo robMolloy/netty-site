@@ -73,7 +73,7 @@ const Print = (props) => {
         title="print_yt_video"
         src="https://www.youtube.com/embed/FGgDw5GnAic"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
       <br />
       <br />
